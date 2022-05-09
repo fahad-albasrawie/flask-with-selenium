@@ -17,7 +17,7 @@ def check_plyer_id():
     #player_name = get_player_name(playerID)
     #player_name = "Fahad"
     playerInfo['plyerId'] = playerID
-    playerInfo['playerName'] = player_name
+    #playerInfo['playerName'] = player_name
     
     
     print(playerID)
