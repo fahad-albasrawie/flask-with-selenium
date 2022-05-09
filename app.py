@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from webscraping import get_player_name
+#from webscraping import get_player_name
 
 app = Flask("__name__")
 
