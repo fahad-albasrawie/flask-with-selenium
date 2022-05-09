@@ -15,9 +15,9 @@ def check_plyer_id():
     playerInfo = {"plyerId": '', "playerName": 'Haddaan ka shaqaynaynaa...'}
     playerID = request.form.get("id_box")
     #player_name = get_player_name(playerID)
-    player_name = "Fahad"
+    #player_name = "Fahad"
     playerInfo['plyerId'] = playerID
-    playerInfo['plyerId'] = player_name
+    playerInfo['playerName'] = player_name
     
     
     print(playerID)
