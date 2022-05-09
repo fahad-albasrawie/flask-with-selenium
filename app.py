@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 #-------------------------------
 
 
+'''
 
 #---------------------
 chrome_options = webdriver.ChromeOptions()
@@ -53,6 +54,7 @@ def get_player_name(playerId):
 
     return player
 #---------------------
+'''
 
 app = Flask("__name__")
 
@@ -67,7 +69,8 @@ def home():
 def check_plyer_id():
     playerInfo = {"plyerId": '', "playerName": 'Haddaan ka shaqaynaynaa...'}
     playerID = request.form.get("id_box")
-    player_name = get_player_name(playerID)
+    #player_name = get_player_name(playerID)
+    player_name = "Fahad"
     playerInfo['plyerId'] = playerID
     playerInfo['plyerId'] = player_name
     
